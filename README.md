@@ -1,21 +1,77 @@
-# HEAD
-# React + Vite
+# 🍽️ Restaurant Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern restaurant website built using **React + Vite + Tailwind CSS**.  
+This application allows users to browse the menu, add food to cart, reserve tables, and simulate payment using a QR code.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Website
+https://hotel-amber-seven.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🏠 Home page with restaurant introduction
+- 🍔 Menu page with food search
+- 🛒 Add to Cart and Remove from Cart
+- ➕ Increase / Decrease quantity
+- 💳 Payment page with QR code
+- 🍽 Table Reservation with pricing
+- 🔔 Toast notification after payment
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-# hotel-
-hotel website
-6c9fc3704272c25498e2bca2c3152da27e27483d
+## 🛠 Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- JavaScript
+
+---
+
+## 📂 Project Structure
+
+```
+src
+ ├ assets
+ ├ components
+ ├ data
+ ├ pages
+ ├ App.jsx
+ └ main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/sanjaikumar-git/hotel-.git
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run the project
+
+```
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Sanjai Kumar**
+
+GitHub:  
+https://github.com/sanjaikumar-git
